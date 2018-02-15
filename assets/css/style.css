@@ -1,1 +1,48 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+input, textarea {
+  padding: 10px;
+  border: 2px solid #E5E5E5;
+  width: 250px;
+}
+
+textarea {
+  width: 500px;
+  height: 200px;
+  max-width: 550px;
+  max-height: 250px;
+  line-height: 17px;
+}
+
+.formular label {
+  margin-left: 10px;
+}
+
+.send input {
+  width: 150px;
+  font-size: 17px;
+  background-color: #474E69;
+  color: #FFFFFF;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
