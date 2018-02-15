@@ -1,5 +1,6 @@
 /* ----- THOMAS CSS ----- */
 body{ margin: auto;
+  font-family: 'Montserrat', sans-serif;
 
 }
 .indhold {
@@ -21,7 +22,13 @@ article{
 
 
 }
-h2{color:#1d1d1b;
+.indhold h2{
+  color:#1d1d1b;
+  margin: auto;
+  font-size: 24px;
+
+
+  text-align: left;
 
 }
 
@@ -51,6 +58,31 @@ margin: 10px 0 0 0;}
 
 
 /* ----- THOMAS CSS SLUT ----- */
+
+h1{
+}
+h2{
+  margin: auto;
+  font-size: 30px;
+  margin: 60px 0 20px 0;
+
+  text-align: center;
+
+}
+h3{
+  text-align: center;
+  margin: auto;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 0 100px 0 100px;
+  margin: 0px 0 60px 0;
+
+
+}
+h4{
+
+}
+
 .logo {
   display: block;
   margin-left: auto;
