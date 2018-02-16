@@ -268,9 +268,10 @@ float: left;
 }
 .kasse2 {
   float: left;
+
   line-height:1.7;
   font-size: 12px;
-
+letter-spacing: 1.2pt;
   width: 40%;
   height: 100px;
 }
@@ -279,7 +280,7 @@ float: left;
   line-height: 2;
   width: 25%;
   height: 100px;
-  min-width: 250px;
+  
 }
 
 h5{float: left;
@@ -415,3 +416,20 @@ float: right;
 
 
 }
+@media only screen and (max-width: 1201px) {
+.kasse3{float: left;
+
+}
+  .sm{
+  float: left;
+    line-height: 2;
+
+
+
+  }
+  .smlink{
+    float: rigth;
+  }
+
+
+  }
