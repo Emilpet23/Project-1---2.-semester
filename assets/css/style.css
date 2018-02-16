@@ -183,7 +183,7 @@ input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-    
+
     box-sizing: border-box;
     resize: vertical;
 }
@@ -232,13 +232,89 @@ input[type=submit] {
     clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+
+#footer {
+    width:100%;
+float: left;
+    background-color: #1d1d1b;
+    padding:14px 0;
+    color:#fff;
+    border-top:2px solid #e30613;
+    bottom:0;
+}
+#footer-inner {
+    width:80%;
+    height: 30px;
+
+    margin:20px auto 0 auto;
+}
+
+.footer-logo{
+  width: 25%;
+  float: left;
+  height: auto;
+
+}
+.footer-tekst{
+  float: left;
+
+
+}
+.footer-kasser {
+  float: left;
+
+  width: 100%;
+  overflow: auto;
+}
+.kasse {
+  float: left;
+
+  width: 35%;
+  height: 100px;
+}
+.kasse2 {
+  float: left;
+  line-height:1.7;
+  font-size: 12px;
+
+  width: 40%;
+  height: 100px;
+}
+.kasse3 {
+  float: right;
+  line-height: 2;
+  width: 25%;
+  height: 100px;
+  min-width: 250px;
+}
+
+h5{float: left;
+  margin: 0 0 0 0;
+  text-transform: uppercase;
+
+
+}
+
+.sm{
+float: right;
+  line-height: 2;
+
+
+}
+.smlink{
+  float: rigth;
+}
+
+}
+
 @media (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
         width: 100%;
         margin-top: 0;
     }
 }
+
 
 
 /* Desktop Styles */
@@ -267,10 +343,76 @@ input[type=submit] {
     width: 50%;
     max-height: 500px;
         }
+
+        .kasse3 {
+
+          line-height: 2;
+          width: 100%;
+          height: 100px;
+        }
+        h5{float: left;
+          margin: 0 0 0 0;
+          text-transform: uppercase;
+            padding-right: 30px;
+
+
+        }
+
+        .sm{
+        float: left;
+          line-height: 2;
+
+
+
+        }
+        .smlink{
+          float: rigth;
+        }
       }
 @media only screen and (max-width: 701px) {
   .box1{ order: 1;
 
   }
   .box2{order: 2;
-  }}
+  }
+
+  .kasse1 {
+
+    line-height: 2;
+    width: 100%;
+    height: 100px;
+  }
+  .kasse2 {
+
+    line-height: 2;
+    width: 100%;
+    height: 100px;
+  }
+
+  .kasse3 {
+
+    line-height: 2;
+    width: 100%;
+    height: 100px;
+  }
+  h5{float: left;
+    margin: 0 0 0 0;
+    text-transform: uppercase;
+      padding-right: 30px;
+
+
+  }
+
+  .sm{
+  float: left;
+    line-height: 2;
+
+
+
+  }
+  .smlink{
+    float: rigth;
+  }
+
+
+}
