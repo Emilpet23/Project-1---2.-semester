@@ -194,7 +194,7 @@ label {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #e30613;
     color: white;
     letter-spacing: 1.5pt;
     text-transform: uppercase;
@@ -290,8 +290,11 @@ float: left;
 }
 
 h5{float: left;
+  font-size: 11px;
   margin: 0 0 0 0;
   text-transform: uppercase;
+  padding: 4px 12px 12px 0;
+  display: inline-block;
 
 
 }
@@ -351,6 +354,7 @@ float: right;
           height: 100px;
         }
         h5{float: left;
+
           margin: 0 0 0 0;
           text-transform: uppercase;
             padding-right: 30px;
