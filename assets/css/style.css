@@ -40,49 +40,39 @@ article{
   justify-content: center;
   align-items: center;
 }
-
-
 .box1 {
   background-image: url("../images/vr-large.jpg");
   background-position: center;
   background-size: cover;
 }
 
+.box1b {
+  background-image: url("../images/business-large.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
 .box2 {
   background-color: #eaeaea;
 }
+
+
+
 .space{ width: 100%;
 margin: 10px 0 0 0;}
 
 .partner{
   margin: auto;
   text-align: center;
-  margin: 80px 0 0 0;
+  margin: 80px 0 60px 0;
 
 }
 .partner h3{
   margin: 0 0 20px; 0;
 
-}
-/*
-.kontakt{
-  margin: auto;
-  text-align: center;
-  width: 90%;
 
 }
-.email{
-  float: right;
-
-
-}
-.navn{
-  float: left;
-}
-.tekst{
-  clear: both;
-
-} */
 
 /* ----- THOMAS CSS SLUT ----- */
 
@@ -208,9 +198,10 @@ input[type=submit] {
 
 .kontakt {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 100px;
-    margin: 60px 0 0 0;
+
+    background-color: #eaeaea;
+    padding: 50px 100px 100px 100px;
+    margin: 0px 0 0 0;
 }
 
 .col-25 {
@@ -327,7 +318,8 @@ float: right;
     margin: 0 auto;
   }
   .box1,
-  .box2{
+  .box2,
+  .box1b{
     width: 50%;
     height: 500px;
     max-height: 500px;
@@ -342,7 +334,8 @@ float: right;
 /* Tablet Styles */
 @media only screen and (min-width: 701px) and (max-width: 960px) {
   .box1,
-  .box2 {
+  .box2,
+  .box1b {
     width: 50%;
     max-height: 500px;
         }
