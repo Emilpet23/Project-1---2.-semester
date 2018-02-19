@@ -2,12 +2,15 @@
 <html>
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <style>
-.page {
+
+
+
+
+.indhold {
   display: flex;
   flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
 }
-
 
 article{
   margin: auto;
@@ -36,25 +39,26 @@ h2{color:#1d1d1b;
 }
 
 
-.feature-1 {
+.box1 {
   background-image: url("assets/images/vr-large.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.feature-2 {
+.box2 {
   background-color: #eaeaea;
 }
-
+.space{ width: 100%;
+margin: 10px 0 0 0;}
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-  .page {
+  .indhold {
     width: 100%;
     margin: 0 auto;
   }
-  .feature-1,
-  .feature-2{
+  .box1,
+  .box2{
     width: 50%;
     height: 500px;
     max-height: 500px;
@@ -67,29 +71,42 @@ h2{color:#1d1d1b;
 }
 /* Tablet Styles */
 @media only screen and (min-width: 701px) and (max-width: 960px) {
-  .sign-up,
-  .feature-1,
-  .feature-2 {
+  .box1,
+  .box2 {
     width: 50%;
     max-height: 500px;
+        }
+      }
+@media only screen and (max-width: 701px) {
+  .box1{ order: 1;
 
   }
-}
+  .box2{order: 2;
+  }}
 </style>
 <body>
 
 <!-- Header -->
-<div class='page'>
+<div class='indhold'>
+  <div class='section box1'></div>
 
-  <div class='section feature-1'>
+    <div class='section box2'>
+      <article class="left"><h2>Who We Are</h2>
+        <p>We are a team of dedicated artists, programmers and designers, working closely with our customers to create stunning visual & interactive experiences. Based directly south of Odense, in the middle of Denmark, our team has built a reputation for good quality & unique solutions.</p>
+      </article>
+</div>
+</div>
+    <div class="space"></div>
 
+
+  <div class='indhold'>
+    <div class='section box2'>
+      <article class="left"><h2>Who We Are</h2>
+        <p>We are a team of dedicated artists, programmers and designers, working closely with our customers to create stunning visual & interactive experiences. Based directly south of Odense, in the middle of Denmark, our team has built a reputation for good quality & unique solutions.</p>
+      </article>
+    </div>
+  <div class='section box1'>
   </div>
-  <div class='section feature-2'>
-    <article class="left"><h2>Who We Are</h2>
-    <p>We are a team of dedicated artists, programmers and designers, working closely with our customers to create stunning visual & interactive experiences. Based directly south of Odense, in the middle of Denmark, our team has built a reputation for good quality & unique solutions.</p>
-</article>
-  </div>
-
 </div>
 
 </body>

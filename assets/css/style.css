@@ -56,6 +56,15 @@ article{
 .box2 {
   background-color: #eaeaea;
 }
+.box3 {
+  background-color: #eaeaea;
+  text-align: center;
+}
+.box3 h2{
+  text-align: center;
+  margin-top: 60px;
+
+}
 
 
 
@@ -124,7 +133,7 @@ header h1 {
   font-weight: bold;
 }
 
-header h4 {
+header h3 {
   text-align: center;
   color: white;
   font-family: 'Montserrat';
@@ -280,7 +289,7 @@ letter-spacing: 1.2pt;
   line-height: 2;
   width: 25%;
   height: 100px;
-  
+
 }
 
 h5{float: left;
@@ -322,6 +331,7 @@ float: right;
   }
   .box1,
   .box2,
+  .box3,
   .box1b{
     width: 50%;
     height: 500px;
@@ -338,6 +348,7 @@ float: right;
 @media only screen and (min-width: 701px) and (max-width: 960px) {
   .box1,
   .box2,
+  .box3,
   .box1b {
     width: 50%;
     max-height: 500px;
