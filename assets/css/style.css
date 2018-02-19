@@ -112,6 +112,8 @@ h4{
   margin-left: auto;
   margin-right: auto;
   padding-top:10%;
+  width: 25%;
+  height: 25%;
   min-width:200px;
 }
 
@@ -138,8 +140,6 @@ header h3 {
   font-style: italic;
 }
 
-
-}
 /* CONTACT Form*/
 input, textarea {
   padding: 10px;
@@ -172,10 +172,6 @@ textarea {
 }
 
 
-
-{
-    box-sizing: border-box;
-}
 
 input[type=text], select, textarea{
     width: 100%;
@@ -367,9 +363,7 @@ float: right;
 
 
         }
-        .smlink{
-          float: rigth;
-        }
+
       }
 @media only screen and (max-width: 701px) {
   .box1{ order: 1;
@@ -411,9 +405,7 @@ float: right;
 
 
   }
-  .smlink{
-    float: rigth;
-  }
+  
 
 
 }
