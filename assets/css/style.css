@@ -78,9 +78,7 @@ margin: 10px 0 0 0;}
 
 }
 .partner h3{
-  margin: 0 0 20px; 0;
-
-
+  margin: 0 0 20px 0;
 }
 
 /* ----- THOMAS CSS SLUT ----- */
@@ -113,9 +111,8 @@ h4{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10%;
-  pa
-  min-width: 200px;
+  padding-top:10%;
+  min-width:200px;
 }
 
 header {
@@ -184,8 +181,6 @@ input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-
-    box-sizing: border-box;
     resize: vertical;
 }
 
@@ -308,11 +303,7 @@ float: right;
 
 
 }
-.smlink{
-  float: rigth;
-}
 
-}
 
 @media (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
@@ -388,7 +379,6 @@ float: right;
   }
 
   .kasse1 {
-
     line-height: 2;
     width: 100%;
     height: 100px;
@@ -431,16 +421,10 @@ float: right;
 .kasse3{float: left;
 
 }
-  .sm{
-  float: left;
-    line-height: 2;
+.sm{
+float: left;
+  line-height: 2;
 
-
-
-  }
-  .smlink{
-    float: rigth;
-  }
-
+}
 
   }
