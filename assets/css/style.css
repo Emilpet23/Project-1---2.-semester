@@ -56,6 +56,15 @@ article{
 .box2 {
   background-color: #eaeaea;
 }
+.box3 {
+  background-color: #eaeaea;
+  text-align: center;
+}
+.box3 h2{
+  text-align: center;
+  margin-top: 60px;
+
+}
 
 
 
@@ -69,9 +78,7 @@ margin: 10px 0 0 0;}
 
 }
 .partner h3{
-  margin: 0 0 20px; 0;
-
-
+  margin: 0 0 20px 0;
 }
 
 /* ----- THOMAS CSS SLUT ----- */
@@ -104,9 +111,10 @@ h4{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10%;
-  pa
-  min-width: 200px;
+  padding-top:10%;
+  width: 25%;
+  height: 25%;
+  min-width:200px;
 }
 
 header {
@@ -124,7 +132,7 @@ header h1 {
   font-weight: bold;
 }
 
-header h4 {
+header h3 {
   text-align: center;
   color: white;
   font-family: 'Montserrat';
@@ -132,8 +140,6 @@ header h4 {
   font-style: italic;
 }
 
-
-}
 /* CONTACT Form*/
 input, textarea {
   padding: 10px;
@@ -167,16 +173,10 @@ textarea {
 
 
 
-{
-    box-sizing: border-box;
-}
-
 input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
-
-    box-sizing: border-box;
     resize: vertical;
 }
 
@@ -280,7 +280,7 @@ letter-spacing: 1.2pt;
   line-height: 2;
   width: 25%;
   height: 100px;
-  
+
 }
 
 h5{float: left;
@@ -299,11 +299,7 @@ float: right;
 
 
 }
-.smlink{
-  float: rigth;
-}
 
-}
 
 @media (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
@@ -322,6 +318,7 @@ float: right;
   }
   .box1,
   .box2,
+  .box3,
   .box1b{
     width: 50%;
     height: 500px;
@@ -338,6 +335,7 @@ float: right;
 @media only screen and (min-width: 701px) and (max-width: 960px) {
   .box1,
   .box2,
+  .box3,
   .box1b {
     width: 50%;
     max-height: 500px;
@@ -365,9 +363,7 @@ float: right;
 
 
         }
-        .smlink{
-          float: rigth;
-        }
+
       }
 @media only screen and (max-width: 701px) {
   .box1{ order: 1;
@@ -377,7 +373,6 @@ float: right;
   }
 
   .kasse1 {
-
     line-height: 2;
     width: 100%;
     height: 100px;
@@ -410,9 +405,7 @@ float: right;
 
 
   }
-  .smlink{
-    float: rigth;
-  }
+  
 
 
 }
@@ -420,16 +413,10 @@ float: right;
 .kasse3{float: left;
 
 }
-  .sm{
-  float: left;
-    line-height: 2;
+.sm{
+float: left;
+  line-height: 2;
 
-
-
-  }
-  .smlink{
-    float: rigth;
-  }
-
+}
 
   }
